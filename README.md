@@ -30,4 +30,4 @@ The bank requires us to predict probability of interested customers opting for a
 
 The proportion of classes in the target variable is imbalanced. Stratified K-Cross validation technique is used to ensure both classes of the dependent variable are equally represented during building the models and model evaluation. 
 
-The data has higher number of observations compared to the number of features. Therefore, low bias high variance machine learning models like K-NN, tree based models are ideal for this problem to prevent underfitting. The ensemble models: XGBoost, CatBoost and LightGBM perform well acheiving a ROC AUC score of ~0.86. The average of these models are considered as the final predicted values.
+The data has higher number of observations compared to the number of features. Therefore, low bias high variance machine learning models like K-NN, tree based models are ideal for this problem to prevent underfitting. The ensemble models: XGBoost, CatBoost and LightGBM perform well acheiving a ROC AUC score of ~0.86. The average of the predicted values from these models are considered as the final predicted values.
